@@ -36,6 +36,108 @@ AI-SaaS is an advanced and adaptable Software-as-a-Service (SaaS) application th
 <img width="1470" alt="Screenshot 2023-07-30 at 11 42 38 AM" src="https://github.com/ayusshrathore/ai-saas/assets/61450246/18f5b2d2-25b0-4b41-ad5b-1c47301a3196">
 <img width="1470" alt="Screenshot 2023-07-30 at 11 42 50 AM" src="https://github.com/ayusshrathore/ai-saas/assets/61450246/1292a4f1-e101-4837-90bd-6018f8f61288">
 
+<!-- Table of Contents -->
+<details>
+
+<summary>
+
+# :notebook_with_decorative_cover: Table of Contents
+
+</summary>
+
+- [Folder Structure](#bangbang-folder-structure)
+- [Getting Started](#toolbox-getting-started)
+- [Screenshots](#camera-screenshots)
+- [Tech Stack](#gear-tech-stack)
+- [Stats](#wrench-stats)
+- [Contribute](#raised_hands-contribute)
+- [Acknowledgements](#gem-acknowledgements)
+- [Buy Me a Coffee](#coffee-buy-me-a-coffee)
+- [Follow Me](#rocket-follow-me)
+- [Learn More](#books-learn-more)
+- [Deploy on Vercel](#page_with_curl-deploy-on-vercel)
+- [Give A Star](#star-give-a-star)
+- [Star History](#star2-star-history)
+- [Give A Star](#star-give-a-star)
+
+</details>
+
+## :bangbang: Folder Structure
+
+Here is the folder structure of this app.
+
+<!--- FOLDER_STRUCTURE_START --->
+```bash
+genius-ai/
+  |- app/
+    |-- (auth)/
+    |-- (dashboard)/
+    |-- (landing)/
+    |-- api/
+    |-- apple-icon.png
+    |-- favicon.ico
+    |-- globals.css
+    |-- icon1.png
+    |-- icon2.png
+    |-- layout.tsx
+  |- components/
+    |-- ui/
+    |-- bot-avatar.tsx
+    |-- crisp-chat.tsx
+    |-- empty.tsx
+    |-- free-counter.tsx
+    |-- heading.tsx
+    |-- landing-content.tsx
+    |-- landing-footer.tsx
+    |-- landing-hero.tsx
+    |-- landing-navbar.tsx
+    |-- loader.tsx
+    |-- mobile-sidebar.tsx
+    |-- navbar.tsx
+    |-- pro-modal.tsx
+    |-- sidebar.tsx
+    |-- subscription-button.tsx
+    |-- user-avatar.tsx
+  |- config/
+    |-- index.ts
+  |- constants/
+    |-- index.ts
+  |- hooks/
+    |-- use-pro-modal.tsx
+  |- lib/
+    |-- api-limit.ts
+    |-- db.ts
+    |-- stripe.ts
+    |-- subscription.ts
+    |-- utils.ts
+  |- prisma/
+    |-- schema.prisma
+  |- providers/
+    |-- crisp-provider.tsx
+    |-- modal-provider.tsx
+    |-- toaster-provider.tsx
+  |- public/
+  |- schemas/
+    |-- index.ts
+  |- .env.example
+  |- .env/.env.local
+  |- .eslintrc.json
+  |- .gitignore
+  |- bun.lock
+  |- components.json
+  |- environment.d.ts
+  |- middleware.ts
+  |- netlify.toml
+  |- next.config.js
+  |- package.json
+  |- postcss.config.js
+  |- tailwind.config.ts
+  |- tsconfig.json
+```
+<!--- FOLDER_STRUCTURE_END --->
+
+<br />
+
 ## Getting Started
 
 To run AI-SaaS locally, follow these steps:
