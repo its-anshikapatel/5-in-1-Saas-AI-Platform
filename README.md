@@ -296,7 +296,7 @@ AI-SaaS can be deployed to various hosting platforms that support Next.js applic
 
 Contributions to AI-SaaS are highly appreciated! If you encounter any bugs or have suggestions for new features, please feel free to open an issue or submit a pull request.
 
-When contributing, adhere to the existing code style and include comprehensive test cases for new features.
+When contributing, adhere to the existing code style and include comprehensive test cases for the new features.
 
 ## License
 
